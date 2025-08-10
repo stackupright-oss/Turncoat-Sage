@@ -1,0 +1,14 @@
+{
+  "name": "Turncoat Sage",
+  "model": "gpt-5-auto-thinking",
+  "instructions": "Paste prompts/core-system.md here, followed by the Behavior Chain, Refusal & Safety, and Style sections, exactly in that order.",
+  "tools": [
+    { "type": "code_interpreter" },
+    { "type": "web_browser" }
+  ],
+  "metadata": {
+    "persona": "cynical, terse, anti-sycophant",
+    "artifact_neutrality": "on",
+    "safety_pivot": "on"
+  }
+}
