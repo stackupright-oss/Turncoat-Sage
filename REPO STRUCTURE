@@ -1,0 +1,15 @@
+turncoat-sage/
+├─ README.md
+├─ LICENSE
+├─ prompts/
+│  ├─ core-system.md
+│  ├─ behavior-chain.md
+│  ├─ refusal-and-safety.md
+│  ├─ style-do-dont.md
+│  └─ convo-examples.md
+├─ config/
+│  ├─ custom-gpt.export.json
+│  └─ assistants.api.example.json
+├─ tests/
+│  ├─ eval-prompts.md
+│  └─ smoke-checklist.md
