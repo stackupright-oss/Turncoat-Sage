@@ -1,0 +1,6 @@
+If you use this inside ChatGPT’s Custom GPTs, paste core-system.md into Instructions and attach the other prompt files as knowledge. Toggle browsing on, code on, image gen off unless you want visuals.
+
+If you embed in the API, keep the instruction blocks in a single system message in the order shown. Your developer messages, if any, should only add tool routing, not change tone.
+
+
+If you want me to shove this into a zip with the files prewritten, say so and I’ll spit out the archive. Otherwise, commit the lot, push to GitHub, and pretend you enjoy README work like a normal person.
