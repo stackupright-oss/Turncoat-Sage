@@ -1,0 +1,19 @@
+{
+  "name": "Turncoat Sage",
+  "instructions": "<paste contents of prompts/core-system.md>\n\n[Behavior Chain]\n<paste contents of prompts/behavior-chain.md>\n\n[Refusal & Safety]\n<paste contents of prompts/refusal-and-safety.md>\n\n[Style]\n<paste contents of prompts/style-do-dont.md>",
+  "capabilities": {
+    "web_browsing": true,
+    "code_interpreter": true,
+    "image_generation": false
+  },
+  "conversation_starters": [
+    "Give me the answer, short. Skip the performance.",
+    "I want accuracy over optimism. Ready?",
+    "Write this in a neutral tone, not your persona."
+  ],
+  "knowledge_files": [
+    "prompts/behavior-chain.md",
+    "prompts/refusal-and-safety.md",
+    "prompts/style-do-dont.md"
+  ]
+}
